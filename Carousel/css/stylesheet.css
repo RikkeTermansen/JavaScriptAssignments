@@ -1,0 +1,29 @@
+.billedebox {
+    width: 275px;
+    height: 275px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px 0 10px 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.billedebox img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    display: none;
+}
+#myButton {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+    background-color: black;
+}
